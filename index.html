@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horóscopo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Horóscopo Diario</h1>
+        <div>
+            <label for="zodiacSign">Introduce tu nombre:</label>
+            <input type="text" id="namePerson" placeholder="Maria" required>
+            <label for="zodiacSign">Introduce tu signo zodiacal:</label>
+            <input type="text" id="zodiacSign" placeholder="Ej. Aries" required>
+            <label for="zodiacSign">Introduce tu edad</label>
+            <input type="number" id="yearsold" placeholder="edad">
+            <button id="getHoroscope">Obtener Horóscopo</button>
+        </div>
+        <div id="horoscopeResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
